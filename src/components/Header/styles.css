@@ -1,0 +1,14 @@
+header {
+    padding: 0 20px;
+    background-color: var(--dcttf-color-bg-secundary);
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    color: var(--dcttf-color-font-tertiary);
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
