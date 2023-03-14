@@ -1,5 +1,7 @@
+import './styles.css';
 import Header from "../../components/Header";
 import Invitation from "../../components/Invitation";
+import Card from '../../components/Card';
 
 export default function Catalog() {
     return (
@@ -11,7 +13,7 @@ export default function Catalog() {
                         <Invitation />
                     </div>
                     <div className="dsct-catalog-cards-container">
-
+                        <Card /><Card />
                     </div>
                 </section>
             </main>
